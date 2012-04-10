@@ -25,7 +25,8 @@ if version < 600    " Don't support the old version
 endif
 
 "" dollar sigh is permittd anywhere in an identifier
-setlocal iskeyword+=$
+"" NO IT ISN'T!
+"setlocal iskeyword+=$
 
 syntax sync fromstart
 
